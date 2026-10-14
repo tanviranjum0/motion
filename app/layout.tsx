@@ -34,13 +34,14 @@ const SITE = {
   title: "Motion Lab — production-ready animation patterns for React",
   description:
     "Twelve scroll-driven, drag-physics and spring-based interaction patterns built with Motion for React and Next.js. Every effect is compositor-only, adapts to touch, and respects reduced-motion.",
-  url: "https://motion-lab.vercel.app",
+  url: "https://motion.tanvirdev.site",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: SITE.title, template: `%s — ${SITE.name}` },
   description: SITE.description,
+  alternates: { canonical: "/" },
   applicationName: SITE.name,
   authors: [{ name: "Tanvir Anjum" }],
   creator: "Tanvir Anjum",
